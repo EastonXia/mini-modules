@@ -1,0 +1,19 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "es6",
+    "downlevelIteration": true,
+    "types": ["node"]
+  },
+  "exclude": [
+    "src/app.config.ts",
+    "src/app.ts",
+    "src/components/**/*.config.ts"
+  ],
+  "include": [
+    "src/**/*",
+    "rollup.config.ts",
+  ],
+  
+}

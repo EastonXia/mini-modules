@@ -1,0 +1,16 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "es6",
+    "outDir": "./dist/mini-modules-mini/lib"
+  },
+  "exclude": [
+    "src/app.config.ts",
+    "src/app.ts",
+    "src/components/**/*.config.ts"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}
